@@ -10,9 +10,10 @@ body, html {
 
 .container {
     position: relative;
-    width: 80%;
-    max-width: 800px;
-    height: 70vh;
+    width: 80vw;
+    height: 80vh;
+    max-width: calc(100vw - 40px);
+    max-height: calc(100vh - 40px);
     background-color: #fff;
     border: 2px solid #ccc;
     border-radius: 8px;
@@ -28,7 +29,8 @@ body, html {
     border: none;
     font-size: 16px;
     resize: none;
-    overflow: auto;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
     outline: none;
     box-sizing: border-box;
 }
@@ -41,4 +43,5 @@ body, html {
     bottom: 4px;
     right: 4px;
     cursor: se-resize;
+    touch-action: none;
 }
