@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Texto Livre</title>
-    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
+
+    <button class="save-button-fixed" id="saveButton" title="Salvar como PDF, HTML, TXT ou JSON">⭳ Salvar TXT</button>
 
     <div class="container">
         <textarea class="textarea" id="textarea" placeholder="Escreva livremente aqui..."></textarea>
         <div class="resize-handle" id="resize-handle"></div>
     </div>
 
-    <script src="script.js"></script>
+    <a href="https://github.com/denilsonbomjesus/freetext" target="_blank" class="github-link-fixed">
+        GitHub Projeto
+    </a>
+
+    <script src="assets/script.js"></script>
 </body>
 </html>
