@@ -1,4 +1,4 @@
-## Funcionalidade
+## Funcionalidades V1
 
 - A área de texto pode ser redimensionada ao arrastar o canto inferior direito.
 - O conteúdo pode ser escrito livremente e o `scroll` será ativado quando o conteúdo exceder o limite da tela.
@@ -6,8 +6,8 @@
 
 ### Funcionalidades V2
 
-- **Botão de Salvar:** Adicionado um botão "⭳ Salvar" no canto superior direito da tela, fora da área de texto principal.
-- **Diálogo "Salvar como" Nativo:** Ao clicar em "⭳ Salvar", o gerenciador de arquivos nativo do sistema operacional é aberto, permitindo ao usuário escolher o nome e a pasta para salvar o arquivo.
+- **Botão de Salvar:** Adicionado um botão "💾 Salvar" no canto superior direito da tela, fora da área de texto principal.
+- **Diálogo "Salvar como" Nativo:** Ao clicar em "💾 Salvar", o gerenciador de arquivos nativo do sistema operacional é aberto, permitindo ao usuário escolher o nome e a pasta para salvar o arquivo.
     - **Múltiplos Formatos de Salvamento:** O usuário pode escolher salvar o conteúdo como:
         - **Texto Simples (.txt):** Padrão e mais recomendado para o conteúdo do `textarea`.
         - **PDF (.pdf):** O conteúdo do `textarea` é convertido e salvo como um documento PDF real, com fonte Helvetica, tamanho 12, e margens de 3cm (superior e esquerda) e 2cm (inferior e direita). O texto é automaticamente quebrado em múltiplas páginas, se necessário.
