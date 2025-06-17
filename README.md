@@ -15,4 +15,4 @@
         - **JSON (.json):** O conteúdo é salvo como texto puro com a extensão JSON.
     - **Fallback de Compatibilidade:** Em navegadores que não suportam a API "Salvar como" nativa, o arquivo é baixado automaticamente como texto simples (.txt) com o nome padrão "nota.txt".
 - **Link do Projeto no GitHub:** Um link discreto para o repositório do GitHub (https://github.com/denilsonbomjesus/freetext) foi adicionado no canto inferior direito da tela, fora da área de texto.
-- **Tooltip no Botão Salvar:** Ao passar o mouse sobre o botão "Salvar TXT", uma dica de ferramenta ("Salvar como PDF, HTML, TXT ou JSON") é exibida, informando o usuário sobre as opções de formato de salvamento.
+- **Tooltip no Botão Salvar:** Ao passar o mouse sobre o botão "💾 Salvar", uma dica de ferramenta ("Salvar como PDF, HTML, TXT ou JSON") é exibida, informando o usuário sobre as opções de formato de salvamento.
